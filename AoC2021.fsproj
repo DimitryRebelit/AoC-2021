@@ -11,8 +11,8 @@
     </Content>
     <Content Include="Puzzle1\input_parttwo.txt" />
     <Compile Include="Puzzle1\Solution.fs" />
-    <Compile Include="Puzzle1\test.fs" />
     <Compile Include="Program.fs" />
+    <Folder Include="Puzzle2" />
   </ItemGroup>
 
   <ItemGroup />

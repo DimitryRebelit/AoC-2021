@@ -1,8 +1,7 @@
-﻿open AoC2021.Puzzle1.Solution
+﻿(*
+    Console application for running all the solutions to the Advent of Code 2021 puzzles
+    Author:         Dimitry Volker
+    Organisation:   Rebel:it
+*)
 
-// For more information see https://aka.ms/fsharp-console-apps
-printfn "== Solution 1 == "
-start_solution_1()
-
-printf "Part two"
-start_solution_1_part_two()
+AoC2021.Puzzle1.Solution.Start()
