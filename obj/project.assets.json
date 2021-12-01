@@ -119,11 +119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\Playground\\AoC-2021\\AoC2021\\AoC2021.fsproj",
+      "projectUniqueName": "D:\\Development\\Playground\\AoC-2021\\AoC2021.fsproj",
       "projectName": "AoC2021",
-      "projectPath": "D:\\Development\\Playground\\AoC-2021\\AoC2021\\AoC2021.fsproj",
+      "projectPath": "D:\\Development\\Playground\\AoC-2021\\AoC2021.fsproj",
       "packagesPath": "C:\\Users\\Dimitry_Rebel\\.nuget\\packages\\",
-      "outputPath": "D:\\Development\\Playground\\AoC-2021\\AoC2021\\obj\\",
+      "outputPath": "D:\\Development\\Playground\\AoC-2021\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
