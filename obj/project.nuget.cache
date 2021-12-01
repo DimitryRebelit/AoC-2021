@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sBJec8sDP7kOBC8qa2JW7MOfYOWbHdhE+eKrgOKfdw7kvYCrnQ8LU9axNZ3CUL/axutdHCULqBIoknHxWCCD0Q==",
+  "success": true,
+  "projectFilePath": "D:\\Development\\Playground\\AoC-2021\\AoC2021\\AoC2021.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dimitry_Rebel\\.nuget\\packages\\fsharp.core\\6.0.1\\fsharp.core.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
