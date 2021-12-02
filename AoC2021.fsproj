@@ -9,10 +9,12 @@
     <Content Include="Puzzle1\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Puzzle1\input_parttwo.txt" />
     <Compile Include="Puzzle1\Solution.fs" />
+    <Content Include="Puzzle2\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Puzzle2\Solution.fs" />
     <Compile Include="Program.fs" />
-    <Folder Include="Puzzle2" />
   </ItemGroup>
 
   <ItemGroup />
