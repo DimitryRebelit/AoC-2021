@@ -27,7 +27,6 @@ let rec ExtractLifeSupportRating (data : seq<char[]>, bitSize : int, column : in
     | _ -> ExtractLifeSupportRating(filteredData, bitSize, (column + 1), isCo2)
 
 let Start() =
-    
     printfn "== Solution 3 | Part Two == "
     printfn "What is the life support rating of the submarine?"
     
