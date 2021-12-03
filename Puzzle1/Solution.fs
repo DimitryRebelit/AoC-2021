@@ -27,7 +27,6 @@ let start_solution_1_part_two () =
         |> Seq.map (fun window -> window |> Array.sum)
         |> Seq.pairwise
 
-
     for first, second in windowedData do
         match (first, second) with
         | (first, second) when first < second -> count <- count + 1

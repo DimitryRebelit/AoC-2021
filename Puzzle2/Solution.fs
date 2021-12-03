@@ -12,7 +12,7 @@ let start_solution_2 () =
     let data =
         fileLines
         |> Seq.mapi (fun index x -> x.Split [| ' ' |])
-        |> Seq.mapi (fun index x -> (x [ 0 ], x [ 1 ] |> int))
+        |> Seq.mapi (fun index x -> (x[0], x[1] |> int))
 
     for direction, amount in data do
         match (direction, amount) with

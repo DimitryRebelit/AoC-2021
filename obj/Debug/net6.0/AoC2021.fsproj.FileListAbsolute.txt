@@ -53,3 +53,4 @@ D:\Development\Playground\AoC-2021\bin\Debug\net6.0\zh-Hant\FSharp.Core.resource
 D:\Development\Playground\AoC-2021\obj\Debug\net6.0\AoC2021.fsproj.CopyComplete
 D:\Development\Playground\AoC-2021\obj\Debug\net6.0\AoC2021.genruntimeconfig.cache
 D:\Development\Playground\AoC-2021\bin\Debug\net6.0\Puzzle2\input.txt
+D:\Development\Playground\AoC-2021\bin\Debug\net6.0\Puzzle3\input.txt
