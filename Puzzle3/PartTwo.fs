@@ -33,10 +33,10 @@ let Start() =
     
     let mutable stopWatch = System.Diagnostics.Stopwatch.StartNew()
     let fileLines = File.ReadLines("Puzzle3\input.txt") |> Seq.toArray |> Seq.map (Seq.toArray)
-    let bitSize = fileLines |> Seq.find(fun x -> true) |> Seq.length
+    let bitSize = fileLines |> Seq.head |> Seq.length
     
-    let oxygenDataArray = ExtractLifeSupportRating(fileLines,bitSize,0,false) |> Seq.find(fun x -> true)
-    let co2DataArray = ExtractLifeSupportRating(fileLines,bitSize,0,true) |> Seq.find(fun x -> true)
+    let oxygenDataArray = ExtractLifeSupportRating(fileLines,bitSize,0,false) |> Seq.head
+    let co2DataArray = ExtractLifeSupportRating(fileLines,bitSize,0,true) |> Seq.head
     
     let oxygenDecimal = Convert.ToInt32(new string(oxygenDataArray), 2)
     let co2Decimal = Convert.ToInt32(new string(co2DataArray), 2)
