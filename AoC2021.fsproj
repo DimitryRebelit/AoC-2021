@@ -23,6 +23,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Compile Include="Puzzle4\PartOne.fs" />
+    <Compile Include="Puzzle4\PartTwo.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
