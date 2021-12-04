@@ -19,6 +19,8 @@
     </Content>
     <Compile Include="Puzzle3\PartOne.fs" />
     <Compile Include="Puzzle3\PartTwo.fs" />
+    <Content Include="Puzzle4\input.txt" />
+    <Compile Include="Puzzle4\PartOne.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
