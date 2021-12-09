@@ -1,8 +1,6 @@
 ﻿module AoC2021.Puzzle8.PartTwo
 
 open System.IO
-open AoC2021.Puzzle8.Models.Display
-open AoC2021.Puzzle8.PartOne
 
 let Start () =
     printfn "== Solution 8 | Part Two == "
@@ -32,7 +30,6 @@ let Start () =
         
         valueResult.Add(numberResult |> int)
         
-    printfn "%A" valueResult
     printfn $"  Answer:"
     printfn $"      Count: {valueResult |> Seq.sum}"
     printfn $"  Duration: %f{stopWatch.Elapsed.TotalMilliseconds} ms"
