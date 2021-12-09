@@ -47,6 +47,11 @@
     <Compile Include="Puzzle8\Template Generator.fs" />
     <Compile Include="Puzzle8\PartOne.fs" />
     <Compile Include="Puzzle8\PartTwo.fs" />
+    <Content Include="Puzzle9\input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Puzzle9\PartOne.fs" />
+    <Compile Include="Puzzle9\PartTwo.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 

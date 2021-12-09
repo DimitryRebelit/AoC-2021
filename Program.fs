@@ -20,3 +20,6 @@ AoC2021.Puzzle7.PartTwo.Start()
 
 AoC2021.Puzzle8.PartOne.Start()
 AoC2021.Puzzle8.PartTwo.Start()
+
+AoC2021.Puzzle9.PartOne.Start()
+AoC2021.Puzzle9.PartTwo.Start()
